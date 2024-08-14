@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #111111;
+}
+
+@keyframes mobe {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 4px));
+    }
+
+}
+.move {
+    animation-name:mobe;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.move img{
+    height: 1vw;
+    width: 4vw;
+    margin: 0 1.25vw;
+}
+.blurleft {
+   
+    background: linear-gradient(to right, #111, transparent);
+    
+}
+
+.blurright {
+   
+    background: linear-gradient(to left, #111, transparent);
+}
