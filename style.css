@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #111111;
-}
+
 
 @keyframes mobe {
     0% {
@@ -15,6 +13,10 @@ body{
         transform: translateX(calc(-100% - 4px));
     }
 
+}
+
+body{
+    background-color: #313131b9;
 }
 .move {
     animation-name:mobe;
@@ -37,3 +39,5 @@ body{
    
     background: linear-gradient(to left, #111, transparent);
 }
+
+
